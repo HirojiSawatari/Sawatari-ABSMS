@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{58B38800-A6A3-4E0A-AAC6-84B94E42FA18}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication7</RootNamespace>
+    <AssemblyName>WindowsFormsApplication7</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>absms.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="乘客录入.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="乘客录入.Designer.cs">
+      <DependentUpon>乘客录入.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能选择.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能选择.Designer.cs">
+      <DependentUpon>功能选择.cs</DependentUpon>
+    </Compile>
+    <Compile Include="安庆市客运中心旅客系统.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="安庆市客运中心旅客系统.Designer.cs">
+      <DependentUpon>安庆市客运中心旅客系统.cs</DependentUpon>
+    </Compile>
+    <Compile Include="找回密码.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="找回密码.Designer.cs">
+      <DependentUpon>找回密码.cs</DependentUpon>
+    </Compile>
+    <Compile Include="旅客管理系统（姓名查询窗口）.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="旅客管理系统（姓名查询窗口）.Designer.cs">
+      <DependentUpon>旅客管理系统（姓名查询窗口）.cs</DependentUpon>
+    </Compile>
+    <Compile Include="旅客管理系统（车辆查询窗口）.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="旅客管理系统（车辆查询窗口）.Designer.cs">
+      <DependentUpon>旅客管理系统（车辆查询窗口）.cs</DependentUpon>
+    </Compile>
+    <Compile Include="旅客购票窗口.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="旅客购票窗口.Designer.cs">
+      <DependentUpon>旅客购票窗口.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理员登陆.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员登陆.Designer.cs">
+      <DependentUpon>管理员登陆.cs</DependentUpon>
+    </Compile>
+    <Compile Include="关于本软件.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="关于本软件.Designer.cs">
+      <DependentUpon>关于本软件.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C_conn.cs" />
+    <Compile Include="安庆市客运中心管理系统.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="安庆市客运中心管理系统.Designer.cs">
+      <DependentUpon>安庆市客运中心管理系统.cs</DependentUpon>
+    </Compile>
+    <Compile Include="加载界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="加载界面.Designer.cs">
+      <DependentUpon>加载界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="旅客管理系统（编号查询窗口）.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="旅客管理系统（编号查询窗口）.Designer.cs">
+      <DependentUpon>旅客管理系统（编号查询窗口）.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="乘客录入.resx">
+      <DependentUpon>乘客录入.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能选择.resx">
+      <DependentUpon>功能选择.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="安庆市客运中心旅客系统.resx">
+      <DependentUpon>安庆市客运中心旅客系统.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="找回密码.resx">
+      <DependentUpon>找回密码.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="旅客管理系统（姓名查询窗口）.resx">
+      <DependentUpon>旅客管理系统（姓名查询窗口）.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="旅客管理系统（车辆查询窗口）.resx">
+      <DependentUpon>旅客管理系统（车辆查询窗口）.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="旅客购票窗口.resx">
+      <DependentUpon>旅客购票窗口.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理员登陆.resx">
+      <DependentUpon>管理员登陆.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="关于本软件.resx">
+      <DependentUpon>关于本软件.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="安庆市客运中心管理系统.resx">
+      <DependentUpon>安庆市客运中心管理系统.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="加载界面.resx">
+      <DependentUpon>加载界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="旅客管理系统（编号查询窗口）.resx">
+      <DependentUpon>旅客管理系统（编号查询窗口）.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理员账户管理.resx">
+      <DependentUpon>管理员账户管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="线路录入.resx">
+      <DependentUpon>线路录入.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="线路管理系统（发到站查询窗口）.resx">
+      <DependentUpon>线路管理系统（发到站查询窗口）.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车辆录入.resx">
+      <DependentUpon>车辆录入.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车辆管理系统（发到站查询窗口）.resx">
+      <DependentUpon>车辆管理系统（发到站查询窗口）.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车辆管理系统（车牌号查询窗口）.resx">
+      <DependentUpon>车辆管理系统（车牌号查询窗口）.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车辆管理系统（驾驶员查询窗口）.resx">
+      <DependentUpon>车辆管理系统（驾驶员查询窗口）.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="退票系统.resx">
+      <DependentUpon>退票系统.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="管理员账户管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员账户管理.Designer.cs">
+      <DependentUpon>管理员账户管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="线路录入.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="线路录入.Designer.cs">
+      <DependentUpon>线路录入.cs</DependentUpon>
+    </Compile>
+    <Compile Include="线路管理系统（发到站查询窗口）.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="线路管理系统（发到站查询窗口）.Designer.cs">
+      <DependentUpon>线路管理系统（发到站查询窗口）.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车辆录入.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车辆录入.Designer.cs">
+      <DependentUpon>车辆录入.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车辆管理系统（发到站查询窗口）.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车辆管理系统（发到站查询窗口）.Designer.cs">
+      <DependentUpon>车辆管理系统（发到站查询窗口）.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车辆管理系统（车牌号查询窗口）.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车辆管理系统（车牌号查询窗口）.Designer.cs">
+      <DependentUpon>车辆管理系统（车牌号查询窗口）.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车辆管理系统（驾驶员查询窗口）.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车辆管理系统（驾驶员查询窗口）.Designer.cs">
+      <DependentUpon>车辆管理系统（驾驶员查询窗口）.cs</DependentUpon>
+    </Compile>
+    <Compile Include="退票系统.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="退票系统.Designer.cs">
+      <DependentUpon>退票系统.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="absms.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
