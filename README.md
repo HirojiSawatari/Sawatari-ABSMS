@@ -1,7 +1,8 @@
 Sawatari ABSMS
 ==============
 
-Sawatari Anqing Bus Station Management System (Sawatari ABSMS) is a project for Anqing Bus Station to manage buses.
+Sawatari Anqing Bus Station Management System (Sawatari ABSMS) is a project for Anqing Bus Station to manage buses. This project was completed in November 2012. 
+
 
 <img src='mdimage/image01.png' height='250px'/>
 
@@ -49,7 +50,7 @@ Output the informations of buses;
 
 Output the informations of bus lines;
 
-<img src='mdimage/image14.png' height='400px'/>
+<img src='mdimage/image14.png' height='300px'/>
 
 Manage the administrator account.
 
